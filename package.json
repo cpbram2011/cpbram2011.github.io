@@ -1,0 +1,31 @@
+{
+  "name": "cpbram2011.github.io",
+  "version": "1.0.0",
+  "description": "Heyo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpbram2011/cpbram2011.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpbram2011/cpbram2011.github.io/issues"
+  },
+  "homepage": "https://github.com/cpbram2011/cpbram2011.github.io#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.8",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
