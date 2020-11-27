@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import NavBar from './dist/navbar';
 
-debugger
 document.addEventListener("DOMContentLoaded", () => { 
     const root = document.getElementById('root');
 
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
         )
     }
-
     ReactDOM.render(<App />, root);
+
 
 })
