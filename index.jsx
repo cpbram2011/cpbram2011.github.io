@@ -2,6 +2,8 @@ import React from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import NavBar from './dist/navbar';
+import Skills from './dist/skills';
+
 
 document.addEventListener("DOMContentLoaded", () => { 
     const root = document.getElementById('root');
@@ -16,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h1>You are Home</h1>
                         </Route>
                         <Route path='/resume'>
-                            <h1>You are Resume</h1>
+                            <Skills />
                         </Route>
                         <Route path='/projects'>
                             <h1>You are Projects</h1>
