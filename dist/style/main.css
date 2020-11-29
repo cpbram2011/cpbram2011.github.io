@@ -1,7 +1,7 @@
 
 
 body {
-   
+   overflow: hidden;
 }
 
 .navbar{
@@ -71,6 +71,12 @@ body {
 .projects li {
    list-style: none;
    transform-style: preserve-3d;
+   height: 120px;
+   transition: background-color .5s;
+}
+
+.projects li:hover {
+   background-color: rgba(47, 0, 255, 0.3);
 }
 
 .projects li.animate {
