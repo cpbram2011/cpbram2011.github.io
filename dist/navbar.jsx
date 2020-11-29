@@ -4,11 +4,13 @@ import {Link, useLocation} from 'react-router-dom';
 export default () => {
     
     let param = useLocation().pathname.slice(1);
-
+    debugger
     const [tab, setTab] = React.useState(param);
     React.useEffect(() => {
         document.querySelector(`#${tab}`).classList.add('selected')
-        
+        console.log(tab);
+        console.log(param);
+
       });
       
     const updateTab = (target) => {
