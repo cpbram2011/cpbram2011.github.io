@@ -8,8 +8,7 @@ export default () => {
     const [tab, setTab] = React.useState(param);
     React.useEffect(() => {
         document.querySelector(`#${tab}`).classList.add('selected')
-        console.log(tab);
-        console.log(param);
+        
 
       });
       

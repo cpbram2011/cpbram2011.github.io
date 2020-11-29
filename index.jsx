@@ -3,6 +3,8 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import NavBar from './dist/navbar';
 import Skills from './dist/skills';
+import Home from './dist/home';
+import Projects from './dist/projects';
 
 
 document.addEventListener("DOMContentLoaded", () => { 
@@ -15,13 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     <NavBar />
                     <Switch>
                         <Route path='/home'>
-                            <h1>You are Home</h1>
+                            <Home />
                         </Route>
                         <Route path='/resume'>
                             <Skills />
                         </Route>
                         <Route path='/projects'>
-                            <h1>You are Projects</h1>
+                            <Projects />
                         </Route>
                         <Route path='/contact'>
                             <h1>You are contact</h1>
