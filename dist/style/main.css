@@ -64,10 +64,20 @@ body {
     width: 200px;
 }
 
+.projects {
+    perspective: 1000px;
+}
 
 .projects li {
    list-style: none;
+   transform-style: preserve-3d;
 }
+
+.projects li.animate {
+    transform: translateZ(-600px) translateY(1200px) rotateX(-90deg);
+	animation: fallPerspective .8s ease-in-out forwards;
+}
+
 .projects h2 {
     display: inline;
     font-size: 3em;
@@ -78,4 +88,13 @@ body {
 .sklogos {
     height: 500px;
     width: 900px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+@keyframes fallPerspective {
+	100% { transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
 }
