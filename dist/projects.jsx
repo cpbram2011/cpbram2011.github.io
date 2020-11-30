@@ -14,20 +14,23 @@ export default () => {
     return (
         <ul className="projects">
             <li className="project-tile hidden">
+                <img src="https://contrafact-seeds.s3.us-east-2.amazonaws.com/contra-snip.PNG" alt="" srcset=""/>
                 <h2>Contrafact</h2>
                 <h3>A SoundCloud inspired app for discovering/listening to new music</h3>
                 <h3>JavaScript, React/Redux, Ruby on Rails, Webpack, AWS (D3), Heroku, HTML, SCSS</h3>
             </li>
             <li className="project-tile hidden">
+                <img src="https://contrafact-seeds.s3.us-east-2.amazonaws.com/hammeron-snip.PNG" alt=""/>
                 <h2>Hammeron</h2>
                 <h3>A polyphonic synthesizer powered by Tone.js</h3>
                 <h3>  Javascript, Tone.js, Webpack, Node.js, HTML, SCSS</h3>
             </li>
             <li className="project-tile hidden">
+                    <img src="https://contrafact-seeds.s3.us-east-2.amazonaws.com/cgdb-snip.PNG" alt=""/>
                 <h2>CGDb</h2>
                 <h3>  A horror-themed experimental project inspired by film director 
-                    <a target='_blank' href="https://www.imdb.com/name/nm6439394/"> Brad Larson</a> </h3>
-                    <h3>Mongoose, MongoDB, Express, Node, JavaScript, React/Redux, Webpack, SCSS</h3>
+                <a target='_blank' href="https://www.imdb.com/name/nm6439394/"> Brad Larson</a> </h3>
+                <h3>Mongoose, MongoDB, Express, Node, JavaScript, React/Redux, Webpack, SCSS</h3>
             </li>
         </ul>
     )

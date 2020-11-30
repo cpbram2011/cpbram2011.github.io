@@ -10,14 +10,14 @@ export default () => {
             data: {
                 labels: ['Coding', 'Debugging', 'TDD', 'Creativity', 'Communication', 'Physical Endurance', 'Charisma', 'Experience'],
                 datasets: [{
-                    data: [19, 19, 17, 18, 18, 8, 16, 14],
+                    data: [18, 19, 17, 19, 18, 8, 16, 14],
                     backgroundColor: 'rgba(0, 3, 150, 0.6)',
                 }]
             },
             options: {
                 scale: {
                     ticks: {
-                        suggestedMin: 5,
+                        suggestedMin: 0,
                         suggestedMax: 20
                     }
 

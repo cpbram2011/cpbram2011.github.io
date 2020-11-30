@@ -5,7 +5,7 @@ export default () => {
     
     let param = useLocation().pathname.slice(1);
     debugger
-    const [tab, setTab] = React.useState(param);
+    const [tab, setTab] = React.useState(param || 'home');
     React.useEffect(() => {
         document.querySelector(`#${tab}`).classList.add('selected')
         
