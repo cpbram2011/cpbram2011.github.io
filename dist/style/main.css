@@ -34,6 +34,7 @@ body {
 
 .home {
     padding: 100px;
+    min-width: 1000px;
     display: flex;
     flex-direction: column;
 
@@ -73,13 +74,19 @@ body {
    transform-style: preserve-3d;
    height: 170px;
    transition: background-color .5s;
+   cursor: pointer;
 }
 
 .projects li:hover {
    background-color: rgba(6, 0, 124, 0.5);
 }
 
-.projects li.animate {
+h3 a:hover {
+    color: white
+}
+
+
+.animate {
     transform: translateZ(-600px) translateY(1200px) rotateX(-90deg);
 	animation: fallPerspective .8s ease-in-out forwards;
 }
@@ -109,6 +116,26 @@ body {
 .sklogos {
     height: 500px;
     width: 900px;
+}
+
+
+
+.contact {
+    height: 600px;
+    margin: 0 70px;
+}
+
+.contact li {
+    height: 80px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.contact li:hover {
+    background-color: rgb(212, 212, 212);
 }
 
 .hidden{

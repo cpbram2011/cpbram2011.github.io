@@ -5,6 +5,7 @@ import NavBar from './dist/navbar';
 import Skills from './dist/skills';
 import Home from './dist/home';
 import Projects from './dist/projects';
+import Contact from './dist/contact';
 
 
 document.addEventListener("DOMContentLoaded", () => { 
@@ -26,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <Projects />
                         </Route>
                         <Route path='/contact'>
-                            <h1>You are contact</h1>
+                            <Contact />
                         </Route>
                     </Switch>
                 </div>

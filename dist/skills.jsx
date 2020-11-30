@@ -30,7 +30,9 @@ export default () => {
     })
     return (
         <div className="skills">
+            <h1>Technical Skills</h1>
             <img className='sklogos' src="https://contrafact-seeds.s3.us-east-2.amazonaws.com/myLogos.jpg" alt="" srcset=""/>
+            
             <canvas id="myChart" ></canvas>
     
         </div>
