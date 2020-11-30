@@ -2,7 +2,7 @@ import React from 'react';
 export default () => {
     React.useEffect(() => {
         const home = document.querySelector('.home');
-        home.classList.add('animate');
+        home.classList.add('animate2');
         home.classList.remove('hidden');
         console.log(home.classList)
     })
