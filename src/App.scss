@@ -37,9 +37,9 @@ div.header {
   position: sticky;
   top: 0;
   height: 60px;
- 
   padding: 0 20px; 
   z-index: 3;
+  
   ul {
     display: flex;
     height: inherit;
@@ -75,11 +75,12 @@ div.header {
   h1 {
     margin-left: 5%;
   }
-  height: 80vh;
+  min-height: 80vh;
   
   div {
     max-width: 800px;
     display: flex;
+    flex-wrap: wrap;
     width: 80vw;
     justify-content: space-around;
     margin: 15px auto;
@@ -90,7 +91,7 @@ div.header {
   padding: 10px;
   
   img {
-    margin: 10px;
+    margin: 15px 30px;
     height: 99px;
     width: 99px;
   }
@@ -189,13 +190,25 @@ div.header {
   }
 }
 
+@media (max-width: 1050px) {
+  #projects {
+    div {
+      flex-direction: column;
+    }
+  }
+}
 
-@media only screen and (max-width: 480px) {
+// @media (max-width: 600px) {
+//   #skills {
+//     div {
+//       flex-wrap: wrap;
+//     }
+//   }
+// }
+
+@media only (max-width: 480px) {
 
   div.header {
-    background-color: red;
-    position: absolute;
-    bottom: 0;
   };
 
   #home {

@@ -23,15 +23,13 @@ export default class middleSection extends Component {
               <img src="../images/git.PNG"/>
               <img src="../images/github.PNG"/>
               <img src="../images/heroku.PNG"/>
-          </div>
-          <div>
+      
               <img src="../images/html.PNG"/>
               <img src="../images/js.PNG"/>
               <img src="../images/mongoDB.PNG"/>
               <img src="../images/node.PNG"/>
               <img src="../images/postgresql.PNG"/>
-          </div>
-          <div>
+         
               <img src="../images/rails.PNG"/>
               <img src="../images/react.PNG"/>
               <img src="../images/redux.PNG"/>
