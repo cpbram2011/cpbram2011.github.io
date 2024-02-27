@@ -100,13 +100,16 @@ const Body = ({refs}) => {
 
                     <h3>Social</h3>
                     <div className='indent1'>
-                        <a href="https://github.com" target="_blank">Github</a>
-                        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/cpbram2011" target="_blank">Github</a>
+                        <a href="https://www.linkedin.com/in/chris-bram/" target="_blank">LinkedIn</a>
                     </div>
-                    
-                    
                 </div>
                 
+                
+                
+                <a className="resume" href="https://docs.google.com/document/d/1B1ILsY_5Mf_t-glzwC53nfE37HUErYaf4XYDs7kgkw4/edit" target="_blank">
+                    Résumé
+                </a>
             </div>
         </div>
     )
