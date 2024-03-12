@@ -66,6 +66,16 @@ const Body = ({refs}) => {
                         <span><FaPython/> <h4>Python</h4> </span>
                     </div>
                     <div className='skills-column'>
+                        <h3>Tools & Platforms</h3>
+                        <span><FaGitAlt/> <h4>Git</h4> </span>
+                        <span><FaGithub/> <h4>Github</h4> </span>
+                        <span><SiHeroku/> <h4>Heroku</h4> </span>
+                        <span><DiPostgresql/> <h4>Postgresql</h4> </span>
+                        <span><SiWebpack/> <h4>Webpack</h4> </span>
+                        <span><SiMongodb/> <h4>MongoDB</h4> </span>
+
+                    </div>
+                    <div className='skills-column'>
                         <h3>Libraries & Frameworks</h3>
                         <span><FaReact/> <h4>React</h4> </span>
                         <span><SiRedux/> <h4>Redux</h4> </span>
@@ -74,16 +84,6 @@ const Body = ({refs}) => {
                         <span><SiRubyonrails/> <h4>Rails</h4> </span>
                         <span><SiMui/> <h4>Material UI</h4> </span>
                         <span><SiChartdotjs/> <h4>Chart.js</h4> </span>
-
-                    </div>
-                    <div className='skills-column'>
-                        <h3>Tools & Platforms</h3>
-                        <span><FaGitAlt/> <h4>Git</h4> </span>
-                        <span><FaGithub/> <h4>Github</h4> </span>
-                        <span><SiHeroku/> <h4>Heroku</h4> </span>
-                        <span><DiPostgresql/> <h4>Postgresql</h4> </span>
-                        <span><SiWebpack/> <h4>Webpack</h4> </span>
-                        <span><SiMongodb/> <h4>MongoDB</h4> </span>
 
                     </div>
                 </div>
