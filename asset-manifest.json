@@ -1,30 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.47a678aa.css",
-    "main.js": "/static/js/main.caf84006.js",
+    "main.css": "/static/css/main.ece064bb.css",
+    "main.js": "/static/js/main.a9645bff.js",
     "static/js/453.e8bfd61b.chunk.js": "/static/js/453.e8bfd61b.chunk.js",
     "static/media/me.jpg": "/static/media/me.87956bb14b143a6f9f99.jpg",
-    "static/media/postgresql.PNG": "/static/media/postgresql.8c821dc34d549e678427.PNG",
-    "static/media/ruby.PNG": "/static/media/ruby.25fe9e0e8785e4edc017.PNG",
-    "static/media/react.PNG": "/static/media/react.62106b711359a1270c9c.PNG",
-    "static/media/mongoDB.PNG": "/static/media/mongoDB.2ea77411f62459408756.PNG",
-    "static/media/rails.PNG": "/static/media/rails.e5914a0a17bec4e3da50.PNG",
-    "static/media/html.PNG": "/static/media/html.cb76c1581dad7b175c55.PNG",
-    "static/media/redux.PNG": "/static/media/redux.e30f4ff2388943ba232b.PNG",
-    "static/media/css.PNG": "/static/media/css.ab614e50c424cf0a9fcf.PNG",
-    "static/media/git.PNG": "/static/media/git.9dffbc4a6ff5562c6cba.PNG",
-    "static/media/github.PNG": "/static/media/github.c96b99bd7f524dc57f34.PNG",
-    "static/media/js.PNG": "/static/media/js.0906d9d8f7570c0654ea.PNG",
-    "static/media/webpack.PNG": "/static/media/webpack.98b597b52e78c56d0212.PNG",
-    "static/media/node.PNG": "/static/media/node.1b08db15332af4f555df.PNG",
+    "static/media/hammeron-1.png": "/static/media/hammeron-1.c18b0268508cf3794948.png",
+    "static/media/statifymapped-1.png": "/static/media/statifymapped-1.15041e8a9bb6b3c27d0a.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.47a678aa.css.map": "/static/css/main.47a678aa.css.map",
-    "main.caf84006.js.map": "/static/js/main.caf84006.js.map",
+    "static/media/github.svg": "/static/media/github.dd6f90037cfe9ed3e6baa9a68198bd12.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.78e820d3519ac4b904dbf9aa2024431e.svg",
+    "main.ece064bb.css.map": "/static/css/main.ece064bb.css.map",
+    "main.a9645bff.js.map": "/static/js/main.a9645bff.js.map",
     "453.e8bfd61b.chunk.js.map": "/static/js/453.e8bfd61b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47a678aa.css",
-    "static/js/main.caf84006.js"
+    "static/css/main.ece064bb.css",
+    "static/js/main.a9645bff.js"
   ]
 }
