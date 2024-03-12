@@ -40,15 +40,9 @@ const Body = ({refs}) => {
                     <h2>About</h2>
                     <div className='aboutContent'>
                         <h4>
-                            Thank you for visiting my portfolio! I'm Chris Bram, an impassioned software engineer committed to crafting elegant solutions to real-world problems. 
-                        </h4>
-                        <h4>
-                            Driven by curiosity and a strong proficiency in modern web development, I thrive in many types of collaborative environments. Whether it's building scalable web applications, crafting intuitive user interfaces, or diving into the latest technologies, I'm always eager to tackle new challenges head-on.
-                        </h4>
-                        <h4>
+                            I'm Chris Bram, an impassioned software engineer committed to crafting elegant solutions to real-world problems. 
+                            Driven by curiosity and a strong proficiency in modern web development, I thrive in many types of collaborative environments. Whether it's building scalable web applications, crafting intuitive user interfaces, or diving into the latest technologies, I'm always eager to tackle new challenges head-on
                             Beyond coding, I'm a lifelong learner, constantly expanding my skill set and staying tuned-in to emerging industry trends. When I'm not at my computer, you can find me experimenting with modern music theory concepts, testing out new coffee recipes, or losing myself in a good book.
-                        </h4>
-                        <h4>
                             Explore my portfolio to learn more about my skills and experience, and feel free to reach out - I'm always happy to chat about tech, projects, or anything in between!
                         </h4>
                     </div>
@@ -109,10 +103,14 @@ const Body = ({refs}) => {
                         <h4>
                             A tool designed to provide data-driven insights into a user's music listening habits and preferences. 
                             Built on the Spotify Api, this web app analyzes tracks contained in playlists and other relevant 
-                            collections, plotting their musical qualities, such as key signature and tempo, on dynamic graphs. Sort tracks 
+                            collections, plotting their key signature, tempo, and other musical qualities on dynamic graphs. Sort tracks 
                             based on audio features such 
                             as popularity, valence, and acousticness
                         </h4>
+                        <div className='links-container'>
+                            <a href='https://www.statifymapped.com/' target='_blank'>Live Site <FaExternalLinkAlt className='ext-link-icon' /></a>
+                            <a href='https://github.com/cpbram2011/statifymapped' target='_blank'>Github Repo <FaExternalLinkAlt className='ext-link-icon' /></a>
+                        </div>
                     </div>
                 </div>
 
@@ -121,12 +119,14 @@ const Body = ({refs}) => {
                     <div class='project-text'>
                         <h3>HAMMERON</h3>
                         <h4>
-                            A tool designed to provide data-driven insights into a user's music listening habits and preferences. 
-                            Built on the Spotify Api, this web app analyzes tracks contained in playlists and other relevant 
-                            collections, plotting their musical qualities, such as key signature and tempo, on dynamic graphs. Sort tracks 
-                            based on audio features such 
-                            as popularity, valence, and acousticness
+                            An in-browser digital synthesizer, playable with a physical QWERTY keyboard. 
+                            Features 4 note polyphony, various selectable waveforms, filter and 
+                            resonance sliders, and sostenuto triggers. 
                         </h4>
+                        <div className='links-container'>
+                            <a href='https://cpbram2011.github.io/hammeron/' target='_blank'>Live Site <FaExternalLinkAlt className='ext-link-icon' /></a>
+                            <a href='https://github.com/cpbram2011/hammeron' target='_blank'>Github Repo <FaExternalLinkAlt className='ext-link-icon' /></a>
+                        </div>
                     </div>
                 </div>
             </div>           
@@ -137,22 +137,24 @@ const Body = ({refs}) => {
 
             <div ref={contactRef} className='contact'>
                 <h2>Contact</h2>
-                    <h4>507.319.0972</h4>
-                    <Link style={{textDecoration: 'unset'}} to='#' onClick={e => { window.location.href = "mailto:cpbram2011@gmail.com"; e.preventDefault() }}>
-                        <h4>cpbram2011@gmail.com <FaExternalLinkAlt className='ext-link' /></h4>
-                    </Link>
+                    <div className='contact-box'>
+                        <h4>507.319.0972</h4>
 
+                        <Link to='#' onClick={e => { window.location.href = "mailto:cpbram2011@gmail.com"; e.preventDefault() }}>
+                            <h4 style={{cursor: 'pointer'}}>cpbram2011@gmail.com <FaExternalLinkAlt className='ext-link-icon' /></h4>
+                        </Link>
 
-                    <div className='links-container'>
-                        <a href="https://github.com/cpbram2011" target="_blank">
-                            <img width="40" height="40" src={github} />
-                        </a>
-                        <a href="https://www.linkedin.com/in/chris-bram/" target="_blank">
-                            <img width="40" height="40" src={linkedin} />
-                        </a>
-                        <a className="resume" href="https://docs.google.com/document/d/1B1ILsY_5Mf_t-glzwC53nfE37HUErYaf4XYDs7kgkw4/edit" target="_blank">
-                            Résumé
-                        </a>
+                        <div className='links-container'>
+                            <a href="https://github.com/cpbram2011" target="_blank">
+                                <img width="40" height="40" src={github} />
+                            </a>
+                            <a href="https://www.linkedin.com/in/chris-bram/" target="_blank">
+                                <img width="40" height="40" src={linkedin} />
+                            </a>
+                            <a className="resume" href="https://docs.google.com/document/d/1B1ILsY_5Mf_t-glzwC53nfE37HUErYaf4XYDs7kgkw4/edit" target="_blank">
+                                Résumé
+                            </a>
+                        </div>
                     </div>
                 
                 
