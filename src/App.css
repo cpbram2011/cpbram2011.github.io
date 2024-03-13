@@ -155,7 +155,7 @@ a {
   padding: 20px;
 }
 
-@media (width <= 600px) {
+@media (width <= 425) {
   .about {
     padding: 80px 10px 20px;
   }
@@ -164,6 +164,12 @@ a {
 .skills {
   min-height: 90vh;
   padding: 80px 50px 20px;
+}
+
+@media (width <= 425) {
+  .skills {
+    padding: 80px 10px 20px;
+  }
 }
 
 .skills-box {
