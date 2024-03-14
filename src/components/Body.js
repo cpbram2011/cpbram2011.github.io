@@ -125,7 +125,7 @@ const Body = ({refs}) => {
                         enhance collaboration and simplify the process of sharing comprehensive cybersecurity insights
                         </h4>
                         <div className='links-container'>
-                            <a href='https://drive.google.com/file/d/18QK0zGKEIPGtU30AIqAyX0vMQfPaTrhO/view' target='_blank'>View Template <FaExternalLinkAlt className='ext-link-icon' /></a>
+                            <a href='https://drive.google.com/file/d/1Cl9thjvM4MGKJtAxDEMJFlHy0GtxQxRM/view?usp=sharing' target='_blank'>View Template <FaExternalLinkAlt className='ext-link-icon' /></a>
                             <a href='https://www.crmtm.net/' target='_blank'>crmtm.net<FaExternalLinkAlt className='ext-link-icon' /></a>
                         </div>
                     </div>
