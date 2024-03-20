@@ -1,16 +1,33 @@
 import React from 'react';
 
-const Navbar = ({page, setPage}) => {
+  const scrollToRef = (ref) => {
+    window.scrollTo({
+      top: ref.current.offsetTop,
+      behavior: 'smooth'
+    });
+  };
 
-    return (
-        <div className='navbar'>
-            <span className='nav-btn home-btn' onClick={() => setPage('Home')}>Home</span>
-            <span className='nav-btn' onClick={() => setPage('About')}>About</span>
-            <span className='nav-btn' onClick={() => setPage('Skills')}>Skills</span>
-            <span className='nav-btn' onClick={() => setPage('Projects')}>Projects</span>
-            <span className='nav-btn' onClick={() => setPage('Contact')}>Contact</span>
-        </div>
-    )
+const Navbar = ({page, setPage, refs}) => {
+  const {
+    homeRef,
+    aboutRef,
+    skillsRef,
+    projectsRef,
+    contactRef
+  } = refs
+  const handleNavigation = (ref) => {
+    scrollToRef(ref);
+  };
+
+  return (
+    <div className='navbar'>
+      <span className='nav-btn home-btn' onClick={() => handleNavigation(homeRef)}>Home</span>
+      <span className='nav-btn' onClick={() => handleNavigation(aboutRef)}>About</span>
+      <span className='nav-btn' onClick={() => handleNavigation(skillsRef)}>Skills</span>
+      <span className='nav-btn' onClick={() => handleNavigation(projectsRef)}>Projects</span>
+      <span className='nav-btn' onClick={() => handleNavigation(contactRef)}>Contact</span>
+    </div>
+  )
 }
 
 export default Navbar

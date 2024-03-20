@@ -1,23 +1,22 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const FadeInDiv = ({children}) => {
+const FadeInDiv = ({ children, delay = 100 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const divRef = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        // The callback will return an array of entries, even if you're observing a single item
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             setIsVisible(true);
+          } else {
+            setIsVisible(false);
           }
         });
       },
       {
-        // Optional settings
-        // root: null, // Use the viewport
-        threshold: 0.1, // Item becomes visible when 10% of it is in the viewport
+        threshold: 0.1,
       }
     );
 
@@ -37,13 +36,13 @@ const FadeInDiv = ({children}) => {
       ref={divRef}
       style={{
         opacity: isVisible ? 1 : 0,
-        transition: 'opacity 0.5s ease-out',
+        transition: `opacity 0.2s ease-out`,
+        transitionDelay: isVisible ? `${delay}ms` : 0
       }}
     >
       {children}
     </div>
   );
 };
-
 
 export default FadeInDiv;

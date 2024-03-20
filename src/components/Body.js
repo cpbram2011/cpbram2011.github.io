@@ -1,15 +1,14 @@
 import React, {useRef} from 'react'
 import { Link } from 'react-router-dom'
+
+import FadeInDiv from './FadeIn'
+
 import { FaExternalLinkAlt, FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs, FaGitAlt, FaGithub    } from "react-icons/fa";
 import { SiRedux, SiMui, SiChartdotjs, SiRubyonrails, SiWebpack, SiMongodb, SiExpress, SiHeroku        } from "react-icons/si";
-
 import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { DiRuby, DiPostgresql  } from "react-icons/di";
-
-import FadeInDiv from './FadeIn'
 import face from './../images/me.jpg'
-
 import github from './../images/github.svg'
 import statifyMapped1 from './../images/statifymapped-1.png'
 import mtm from './../images/MTM.png'
@@ -56,37 +55,37 @@ const Body = ({refs}) => {
             <div ref={skillsRef} className='skills'>
                 <h2>Skills</h2>
                 <div className='skills-box'>
-                    <div className='skills-column'>
-                        <h3>Languages</h3>
-                        <span><RiJavascriptFill/> <h4>JavaScript</h4> </span>
-                        <span><BiLogoTypescript/> <h4>TypeScript</h4> </span>
-                        <span><FaHtml5/> <h4>HTML</h4> </span>
-                        <span><FaCss3Alt/> <h4>CSS</h4> </span>
-                        <span><DiRuby/> <h4>Ruby</h4> </span>
+                        <div className='skills-column'>
+                            <FadeInDiv delay={100}><h3>Languages</h3></FadeInDiv>
+                            <FadeInDiv delay={150}><span><RiJavascriptFill/> <h4>JavaScript</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={200}><span><BiLogoTypescript/> <h4>TypeScript</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={250}><span><FaHtml5/> <h4>HTML</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={300}><span><FaCss3Alt/> <h4>CSS</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={350}><span><DiRuby/> <h4>Ruby</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={400}><span><FaPython/> <h4>Python</h4> </span></FadeInDiv>
+                        </div>
+                        <div className='skills-column'>
+                            <FadeInDiv delay={150}><h3>Tools & Platforms</h3></FadeInDiv>
+                            <FadeInDiv delay={200}><span><FaGitAlt/> <h4>Git</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={250}><span><FaGithub/> <h4>Github</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={300}><span><SiHeroku/> <h4>Heroku</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={350}><span><DiPostgresql/> <h4>Postgresql</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={400}><span><SiWebpack/> <h4>Webpack</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={450}><span><SiMongodb/> <h4>MongoDB</h4> </span></FadeInDiv>
 
-                        <span><FaPython/> <h4>Python</h4> </span>
-                    </div>
-                    <div className='skills-column'>
-                        <h3>Tools & Platforms</h3>
-                        <span><FaGitAlt/> <h4>Git</h4> </span>
-                        <span><FaGithub/> <h4>Github</h4> </span>
-                        <span><SiHeroku/> <h4>Heroku</h4> </span>
-                        <span><DiPostgresql/> <h4>Postgresql</h4> </span>
-                        <span><SiWebpack/> <h4>Webpack</h4> </span>
-                        <span><SiMongodb/> <h4>MongoDB</h4> </span>
+                        </div>
 
-                    </div>
-                    <div className='skills-column'>
-                        <h3>Libraries & Frameworks</h3>
-                        <span><FaReact/> <h4>React</h4> </span>
-                        <span><SiRedux/> <h4>Redux</h4> </span>
-                        <span><FaNodeJs/> <h4>Node</h4> </span>
-                        <span><SiExpress/> <h4>Express</h4> </span>
-                        <span><SiRubyonrails/> <h4>Rails</h4> </span>
-                        <span><SiMui/> <h4>Material UI</h4> </span>
-                        <span><SiChartdotjs/> <h4>Chart.js</h4> </span>
+                        <div className='skills-column'>
+                            <FadeInDiv delay={200}><h3>Libraries & Frameworks</h3></FadeInDiv>
+                            <FadeInDiv delay={250}><span><FaReact/> <h4>React</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={300}><span><SiRedux/> <h4>Redux</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={350}><span><FaNodeJs/> <h4>Node</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={400}><span><SiExpress/> <h4>Express</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={450}><span><SiRubyonrails/> <h4>Rails</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={500}><span><SiMui/> <h4>Material UI</h4> </span></FadeInDiv>
+                            <FadeInDiv delay={550}><span><SiChartdotjs/> <h4>Chart.js</h4> </span></FadeInDiv>
 
-                    </div>
+                        </div>
                 </div>
             </div>
             </FadeInDiv>
@@ -97,24 +96,26 @@ const Body = ({refs}) => {
             <div ref={projectsRef} className='projects'>
                 <h2>Projects</h2>
                 <br/>
-                <div className='project-box'>
-                    <img  class='project-pic' src={statifyMapped1} />
-                    <div class='project-text'>
-                        <h3>Statify Mapped</h3>
-                        <h4>
-                            A tool designed to provide data-driven insights into a user's music listening habits and preferences. 
-                            Developed on the Spotify Api, this web app analyzes tracks contained in playlists and other relevant 
-                            collections, plotting their key signature, tempo, and other musical qualities on dynamic graphs. Sort tracks 
-                            based on audio features such 
-                            as popularity, valence, and acousticness
-                        </h4>
-                        <div className='links-container'>
-                            <a href='https://www.statifymapped.com/' target='_blank'>Live Site <FaExternalLinkAlt className='ext-link-icon' /></a>
-                            <a href='https://github.com/cpbram2011/statifymapped' target='_blank'>Github Repo <FaExternalLinkAlt className='ext-link-icon' /></a>
+                <FadeInDiv delay={200}>
+                    <div className='project-box'>
+                        <img  class='project-pic' src={statifyMapped1} />
+                        <div class='project-text'>
+                            <h3>Statify Mapped</h3>
+                            <h4>
+                                A tool designed to provide data-driven insights into a user's music listening habits and preferences. 
+                                Developed on the Spotify Api, this web app analyzes tracks contained in playlists and other relevant 
+                                collections, plotting their key signature, tempo, and other musical qualities on dynamic graphs. Sort tracks 
+                                based on audio features such 
+                                as popularity, valence, and acousticness
+                            </h4>
+                            <div className='links-container'>
+                                <a href='https://www.statifymapped.com/' target='_blank'>Live Site <FaExternalLinkAlt className='ext-link-icon' /></a>
+                                <a href='https://github.com/cpbram2011/statifymapped' target='_blank'>Github Repo <FaExternalLinkAlt className='ext-link-icon' /></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
+                </FadeInDiv>
+                <FadeInDiv delay={250}>
                 <div className='project-box'>
                     <img  class='project-pic' src={mtm} />
                     <div class='project-text'>
@@ -130,7 +131,9 @@ const Body = ({refs}) => {
                         </div>
                     </div>
                 </div>
+                </FadeInDiv>
 
+                <FadeInDiv delay={300}>
                 <div className='project-box'>
                     <img  class='project-pic' src={hammeron1} />
                     <div class='project-text'>
@@ -146,6 +149,8 @@ const Body = ({refs}) => {
                         </div>
                     </div>
                 </div>
+                </FadeInDiv>
+
             </div>           
             </FadeInDiv>
 
