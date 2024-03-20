@@ -5,7 +5,13 @@
 .App {
   text-align: center;
   position: relative;
-  background-color: #171C28;
+  /* background-color: #171C28; */
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 
@@ -83,7 +89,7 @@ a {
 }
 
 .navbar {
-  background-color: #171C28;
+  background-color: rgba(23, 28, 40, 0.5);
   padding: 20px;
   display: flex;
   gap: 20px;
