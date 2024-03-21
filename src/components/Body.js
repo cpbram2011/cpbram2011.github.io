@@ -39,12 +39,25 @@ const Body = ({refs}) => {
                 <div ref={aboutRef} className='about'>
                     <h2>About</h2>
                     <div className='aboutContent'>
-                        <h4>
-                            I'm Chris Bram, an impassioned software engineer committed to crafting elegant solutions to real-world problems. 
-                            Driven by curiosity and a strong proficiency in modern web development, I thrive in many types of collaborative environments. Whether it's building scalable web applications, crafting intuitive user interfaces, or diving into the latest technologies, I'm always eager to tackle new challenges head-on
-                            Beyond coding, I'm a lifelong learner, constantly expanding my skill set and staying tuned-in to emerging industry trends. When I'm not at my computer, you can find me experimenting with modern music theory concepts, testing out new coffee recipes, or losing myself in a good book.
-                            Explore my portfolio to learn more about my skills and experience, and feel free to reach out - I'm always happy to chat about tech, projects, or anything in between!
-                        </h4>
+                        <FadeInDiv delay={100}>
+                            <h3>
+                                I'm Chris Bram, an impassioned software engineer committed to crafting elegant solutions to real-world problems. 
+                            </h3>
+                            <br/>
+                        </FadeInDiv>
+                        <FadeInDiv delay={150}>
+                            <h3>
+                                Driven by curiosity and a strong proficiency in modern web development, I thrive in many types of collaborative environments. Whether it's building scalable web applications, crafting intuitive user interfaces, or diving into the latest technologies, I'm always eager to tackle new challenges head-on
+                                Beyond coding, I'm a lifelong learner, constantly expanding my skill set and staying tuned-in to emerging industry trends. When I'm not at my computer, you can find me experimenting with modern music theory concepts, testing out new coffee recipes, or losing myself in a good book.
+                            </h3>
+                            <br/>
+                        </FadeInDiv>
+
+                        <FadeInDiv delay={200}>
+                            <h3>
+                                Explore my portfolio to learn more about my skills and experience, and feel free to reach out - I'm always happy to chat about tech, projects, or anything in between!
+                            </h3>
+                        </FadeInDiv>
                     </div>
                 </div>
             </FadeInDiv>
