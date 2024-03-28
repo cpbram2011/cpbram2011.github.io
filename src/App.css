@@ -2,15 +2,20 @@
   --text-color: #CBD6EE
 }
 
+body {
+  background-color: #010206;
+}
 .App {
   text-align: center;
   position: relative;
   /* background-color: #171C28; */
+  height: 100vh;
 }
 
 #bg {
   position: fixed;
   top: 0;
+
   left: 0;
 }
 
@@ -152,7 +157,7 @@ a {
 
 
 .about {
-  height: 90vh;
+  min-height: 90vh;
   padding: 80px 50px 20px;
 }
 
