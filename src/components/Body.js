@@ -27,7 +27,7 @@ const Body = ({refs}) => {
                 <div ref={homeRef} className='home'>
                     <div>
                         <h1>Chris Bram</h1>
-                        <h2>Full Stack Developer</h2>
+                        <h2>Front End Developer</h2>
              
                     </div>
                     <img src={face} className='face'/>
