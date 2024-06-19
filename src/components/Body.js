@@ -186,7 +186,7 @@ const Body = ({refs}) => {
                             <a href="https://www.linkedin.com/in/chris-bram/" target="_blank">
                                 <img width="40" height="40" src={linkedin} />
                             </a>
-                            <a className="resume" href="https://docs.google.com/document/d/1B1ILsY_5Mf_t-glzwC53nfE37HUErYaf4XYDs7kgkw4/edit" target="_blank">
+                            <a className="resume" href="https://drive.google.com/file/d/1Avx8JGu7r63XMD73GjpEV_9pFN_Ot0OI/view?usp=sharing" target="_blank">
                                 Résumé
                             </a>
                         </div>
